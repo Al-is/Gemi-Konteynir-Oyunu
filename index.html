@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liman Bulmaca - Konteyner Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="score-panel">
+                <span id="score">Skor: 0</span>
+                <span id="ships-completed">Gemi: 0</span>
+            </div>
+        </div>
+        <div id="ship-request" class="hidden">
+            <div id="request-bubble">
+                <span id="request-text"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ses Efektleri -->
+    <audio id="sound-pickup" preload="auto">
+        <source src="data:audio/wav;base64,UklGRl9vT19teleGFWQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YU" type="audio/wav">
+    </audio>
+    <audio id="sound-drop" preload="auto">
+        <source src="data:audio/wav;base64,UklGRl9vT19teleGFWQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YU" type="audio/wav">
+    </audio>
+
+    <script src="game.js"></script>
+</body>
+</html>
