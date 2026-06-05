@@ -1,4 +1,4 @@
-React Native ile yapay zeka yardımıyla yapılan basit ama eğlenceli bir oyun.
+React Native ile yapay zeka yardımıyla yapılan basit ama eğlenceli bir oyun. Gemi yük konteynırlarını renklerine göre ayırıp gemiye yükleme oyunu. Oyunun ilerleyen levellerinde zorlu hava şartları konteynırlara ulaşmayı zorlaştırabiliyor. Fırtınadan dolayı konteynırlar başka slotlara kayabiliyor hızlı davranıp istenilen konteynırları  hemen yüklemelisiniz. Gece gündüz çalışan limanımız gece konteynırları bulmayı daha da zorlaştırıyor.
 
 <img width="354" height="858" alt="image" src="https://github.com/user-attachments/assets/f2e2bd1c-f121-43e9-884a-42b2707c8534" />
 
